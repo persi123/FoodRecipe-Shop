@@ -88,7 +88,7 @@ class SearchView extends Component {
               onChange={this.changeHandler}
               style={{ width: "173px" }}
             />
-            <input type="submit"></input>
+            <input type="submit" value="submit"></input>
           </form>
         </div>
         {this.state.doesFetch ? (
