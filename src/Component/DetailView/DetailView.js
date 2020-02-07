@@ -21,7 +21,7 @@ export default class DetailView extends Component {
 
   render() {
     return (
-      <div className="container mt-4 ">
+      <div className="container mt-4 " style={{ color: "black" }}>
         <img
           alt="food"
           style={{ marginTop: "10px" }}

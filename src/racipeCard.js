@@ -6,7 +6,7 @@ export default function racipeCard(props) {
     <div className="col-auto mb-3">
       <div className="card" style={{ width: "18rem" }}>
         <img alt="food" src={props.img} className="card-img-top" />
-        <div className="card-body">
+        <div className="card-body" style={{color:"black"}}>
           <h5 className="card-title">{props.label}</h5>
           <div className="d-flex flex-column align-items-center">
             <div className="d-flex flex-row ">
